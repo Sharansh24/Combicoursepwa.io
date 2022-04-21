@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
+
+.popular-course-area *{
+  margin: 0;
+  padding: 0;
+  color: #f2f2f2;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.popular-course-area body{
+  background: white;
+}
+
+.popular-course-area h1 {
+  text-align: center;
+  color:black;
+  font-family: 'Quantico', sans-serif;
+}
+
+.popular-course-area h3{
+  margin-left: 50px;
+  color:black;
+}
+
+.popular-course-area img{
+  height: 430px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.wrapper {
+  background-color: #7c32ff;
+  width: 95%;
+  height: 501px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 0 auto;
+  /* border: 3px solid black; */
+  border-radius: 5px;
+}
+
+.item {
+  height: 430px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.wrapper {
+  /* add this at the end */
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 0 50px;
+  padding: 30px 60px;
+  padding-right: 0;        
+}
+
+.empty {
+  width: 10px;
+}
+
+.wrapper {
+  /* Add this at the end */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  border-radius: 10px;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}

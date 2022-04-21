@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.footer-area *{
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.footer-area .content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.footer-area .content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.footer-area .content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+.footer-area footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #222222;
+}
+.footer-area .main-content{
+  display: flex;
+}
+.footer-area .main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.footer-area .box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footer-area .box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.footer-area .box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.footer-area .box .content:after{
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 100%;
+  background: #7c32ff;
+  top: -10px;
+}
+.footer-area .left .content p{
+  text-align: justify;
+}
+.footer-area .left .content .social{
+  margin: 20px 0 0 0;
+}
+.footer-area .left .content .social a{
+  padding: 0 2px;
+}
+.footer-area .left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.footer-area .left .content .social a span:hover{
+  background: #f12020;
+}
+.footer-area .center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.footer-area .center .content .fas:hover{
+  background: #7c32ff;
+}
+.footer-area .center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.footer-area .center .content .phone{
+  margin: 15px 0;
+}
+.footer-area .right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.footer-area .right form .msg{
+  margin-top: 10px;
+}
+.footer-area .right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.footer-area .right form input:focus,
+.footer-area .right form textarea:focus{
+  outline-color: #3498db;
+}
+.footer-area .right form input{
+  height: 35px;
+}
+.footer-area .right form .btn{
+  margin-top: 10px;
+}
+.footer-area .right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.footer-area .right form .btn button:hover{
+  background: #000;
+}
+.footer-area .bottom center{
+  padding: 0px;
+  font-size: 0.8375rem;
+  background: #7c32ff;
+}
+.footer-area .bottom center span{
+  color: black;
+}
+.footer-area .bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.footer-area .bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  .footer-area footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .footer-area .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .footer-area .main-content .box{
+    margin: 5px 0;
+  }
+}
