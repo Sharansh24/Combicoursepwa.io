@@ -1,0 +1,2 @@
+<h2 style="padding-left: 50px;">Popular <samp style="font-family: 'Times New Roman', Times, serif; color: #f55d98;">Webinars</samp></h2><br/>
+    <h4 style="padding-left: 50px;"> Recommended for you</h4>
